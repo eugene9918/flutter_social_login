@@ -19,7 +19,7 @@ class LoginPage extends StatelessWidget {
               child: Text('Google Login'),
             ),
             OutlinedButton(
-              onPressed: () {},
+              onPressed: Auth().signInWithFacebook,
               child: Text('Facebook Login'),
             ),
             OutlinedButton(
