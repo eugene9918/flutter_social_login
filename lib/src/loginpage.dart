@@ -23,7 +23,7 @@ class LoginPage extends StatelessWidget {
               child: Text('Facebook Login'),
             ),
             OutlinedButton(
-              onPressed: () {},
+              onPressed: Auth().signInWithApple,
               child: Text('Apple Login'),
             ),
           ],
